@@ -8,7 +8,7 @@ package StringProgram;
  *
  * @author hp
  */
-public class LengthOfLastWord {
+public class LengthOfLastWord{
     public static int lengthOfLastWord(String s) {
       String res[] = s.split(" ");
         String resString = res[res.length-1];
